@@ -1,0 +1,8 @@
+boto3>=1.34
+Faker>=22.0
+ 
+# The Databricks notebook (DATABRICK_ANOMALY_FLAGGING.py) doesn't need
+# anything installed locally -- it runs on a Databricks cluster, which
+# already provides PySpark. That cluster does need the Kinesis connector
+# library attached separately (not a pip package) -- see the comment above
+# the readStream cell in that file.
